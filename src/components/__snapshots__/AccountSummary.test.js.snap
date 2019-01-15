@@ -1,0 +1,268 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountSummary component renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(AccountSummary)>
+    <AccountSummary
+      dispatch={[Function]}
+      startingBalance={18000}
+      totalAvailable={18000}
+      totalSent={0}
+    >
+      <styled.div>
+        <StyledComponent
+          forwardedClass={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": undefined,
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bdVaJa",
+                "isStatic": true,
+                "lastClassName": "hKAetY",
+                "rules": Array [
+                  "
+  display: flex;
+  align-items: center;
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "render": [Function],
+              "styledComponentId": "sc-bdVaJa",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <div
+            className="sc-bdVaJa hKAetY"
+          >
+            <styled.div>
+              <StyledComponent
+                forwardedClass={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-htpNat",
+                      "isStatic": true,
+                      "lastClassName": "exkFRM",
+                      "rules": Array [
+                        "
+  font-weight: 600;
+  padding: 0.75rem;
+  width: 33%;
+
+  &:first-child {
+    text-align: right;
+  }
+",
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "render": [Function],
+                    "styledComponentId": "sc-htpNat",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <div
+                  className="sc-htpNat exkFRM"
+                >
+                  £
+                  0.00
+                  <styled.p>
+                    <StyledComponent
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bwzfXH",
+                            "isStatic": true,
+                            "lastClassName": "hxPXFl",
+                            "rules": Array [
+                              "
+  margin: 0;
+  font-weight: 400;
+  font-size: 10pt;
+",
+                            ],
+                          },
+                          "displayName": "styled.p",
+                          "render": [Function],
+                          "styledComponentId": "sc-bwzfXH",
+                          "target": "p",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <p
+                        className="sc-bwzfXH hxPXFl"
+                      >
+                        total sent
+                      </p>
+                    </StyledComponent>
+                  </styled.p>
+                </div>
+              </StyledComponent>
+            </styled.div>
+            <styled.div
+              percentageLeft={100}
+            >
+              <StyledComponent
+                forwardedClass={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bxivhb",
+                      "isStatic": false,
+                      "lastClassName": "lfirxx",
+                      "rules": Array [
+                        "
+  display: inline-block;
+  min-width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: relative;
+  background-image: ",
+                        [Function],
+                        ";
+
+  &::before {
+    display: inline-block;
+    background: #ffffff;
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+",
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "render": [Function],
+                    "styledComponentId": "sc-bxivhb",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                percentageLeft={100}
+              >
+                <div
+                  className="sc-bxivhb lfirxx"
+                />
+              </StyledComponent>
+            </styled.div>
+            <styled.div>
+              <StyledComponent
+                forwardedClass={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-htpNat",
+                      "isStatic": true,
+                      "lastClassName": "exkFRM",
+                      "rules": Array [
+                        "
+  font-weight: 600;
+  padding: 0.75rem;
+  width: 33%;
+
+  &:first-child {
+    text-align: right;
+  }
+",
+                      ],
+                    },
+                    "displayName": "styled.div",
+                    "render": [Function],
+                    "styledComponentId": "sc-htpNat",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <div
+                  className="sc-htpNat exkFRM"
+                >
+                  £
+                  18,000.00
+                  <styled.p>
+                    <StyledComponent
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bwzfXH",
+                            "isStatic": true,
+                            "lastClassName": "hxPXFl",
+                            "rules": Array [
+                              "
+  margin: 0;
+  font-weight: 400;
+  font-size: 10pt;
+",
+                            ],
+                          },
+                          "displayName": "styled.p",
+                          "render": [Function],
+                          "styledComponentId": "sc-bwzfXH",
+                          "target": "p",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <p
+                        className="sc-bwzfXH hxPXFl"
+                      >
+                        left available
+                      </p>
+                    </StyledComponent>
+                  </styled.p>
+                </div>
+              </StyledComponent>
+            </styled.div>
+          </div>
+        </StyledComponent>
+      </styled.div>
+    </AccountSummary>
+  </Connect(AccountSummary)>
+</Provider>
+`;

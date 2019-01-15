@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Field component renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(Field)>
+    <Field
+      dispatchRegisterField={[Function]}
+      dispatchUpdateFieldValue={[Function]}
+      fieldValue=""
+      totalAvailable={18000}
+    >
+      <styled.div>
+        <StyledComponent
+          forwardedClass={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": undefined,
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bxivhb",
+                "isStatic": true,
+                "lastClassName": "cdiCYE",
+                "rules": Array [
+                  "
+  position: relative;
+",
+                ],
+              },
+              "displayName": "styled.div",
+              "render": [Function],
+              "styledComponentId": "sc-bxivhb",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <div
+            className="sc-bxivhb cdiCYE"
+          >
+            <styled.label>
+              <StyledComponent
+                forwardedClass={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": true,
+                      "lastClassName": "bDvvZv",
+                      "rules": Array [
+                        "
+  display: block;
+  width: 100%;
+  margin-top: 2.5rem;
+  letter-spacing: -0.4px;
+",
+                      ],
+                    },
+                    "displayName": "styled.label",
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "label",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <label
+                  className="sc-bdVaJa bDvvZv"
+                />
+              </StyledComponent>
+            </styled.label>
+            <styled.input
+              error={true}
+              onBlur={[Function]}
+              onChange={[Function]}
+              value=""
+            >
+              <StyledComponent
+                error={true}
+                forwardedClass={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bwzfXH",
+                      "isStatic": false,
+                      "lastClassName": "HnZQh",
+                      "rules": Array [
+                        "
+  border: ",
+                        [Function],
+                        ";
+  border-style: none none solid none;
+  width: 100%;
+  min-height: 2.4rem;
+  font-size: 1.1rem;
+  caret-color: #4b3cfa;
+
+  &:focus {
+    outline: none;
+    border-bottom: 2px solid #4b3cfa;
+  }
+
+  &[type='number'] {
+    padding-left: 18px;
+    box-sizing: border-box;
+  }
+",
+                      ],
+                    },
+                    "displayName": "styled.input",
+                    "render": [Function],
+                    "styledComponentId": "sc-bwzfXH",
+                    "target": "input",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                onBlur={[Function]}
+                onChange={[Function]}
+                value=""
+              >
+                <input
+                  className="sc-bwzfXH HnZQh"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  value=""
+                />
+              </StyledComponent>
+            </styled.input>
+          </div>
+        </StyledComponent>
+      </styled.div>
+    </Field>
+  </Connect(Field)>
+</Provider>
+`;

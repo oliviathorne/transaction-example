@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormContainer component renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(FormContainer)>
+    <FormContainer
+      dispatchSaveTransaction={[Function]}
+      fields={Object {}}
+    >
+      <styled.form
+        onSubmit={[Function]}
+      >
+        <StyledComponent
+          forwardedClass={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": undefined,
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bdVaJa",
+                "isStatic": true,
+                "lastClassName": "iNmWoD",
+                "rules": Array [
+                  "
+  width: 50%;
+  padding: 2rem 10% 4rem 0;
+  border-right: 1px solid #edeef7;
+  box-sizing: border-box;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1px solid #edeef7;
+    padding: 2rem 0 4rem;
+  }
+",
+                ],
+              },
+              "displayName": "styled.form",
+              "render": [Function],
+              "styledComponentId": "sc-bdVaJa",
+              "target": "form",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+          onSubmit={[Function]}
+        >
+          <form
+            className="sc-bdVaJa iNmWoD"
+            onSubmit={[Function]}
+          >
+            <styled.h1>
+              <StyledComponent
+                forwardedClass={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bwzfXH",
+                      "isStatic": true,
+                      "lastClassName": "hllhvC",
+                      "rules": Array [
+                        "
+  font-family: 'AlverataBlack';
+  letter-spacing: -0.6px;
+",
+                      ],
+                    },
+                    "displayName": "styled.h1",
+                    "render": [Function],
+                    "styledComponentId": "sc-bwzfXH",
+                    "target": "h1",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <h1
+                  className="sc-bwzfXH hllhvC"
+                />
+              </StyledComponent>
+            </styled.h1>
+            <Connect(Field)
+              handleSubmit={[Function]}
+              isSubmiting={false}
+              key=".0"
+              label="Name"
+              name="name"
+              type="text"
+              validate={[MockFunction]}
+            >
+              <Field
+                dispatchRegisterField={[Function]}
+                dispatchUpdateFieldValue={[Function]}
+                fieldValue=""
+                handleSubmit={[Function]}
+                isSubmiting={false}
+                label="Name"
+                name="name"
+                totalAvailable={18000}
+                type="text"
+                validate={[MockFunction]}
+              >
+                <styled.div>
+                  <StyledComponent
+                    forwardedClass={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": undefined,
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-bZQynM",
+                          "isStatic": true,
+                          "lastClassName": "iMWVsx",
+                          "rules": Array [
+                            "
+  position: relative;
+",
+                          ],
+                        },
+                        "displayName": "styled.div",
+                        "render": [Function],
+                        "styledComponentId": "sc-bZQynM",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="sc-bZQynM iMWVsx"
+                    >
+                      <styled.label
+                        htmlFor="name"
+                      >
+                        <StyledComponent
+                          forwardedClass={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": undefined,
+                              "componentStyle": ComponentStyle {
+                                "componentId": "sc-bxivhb",
+                                "isStatic": true,
+                                "lastClassName": "hpIQsY",
+                                "rules": Array [
+                                  "
+  display: block;
+  width: 100%;
+  margin-top: 2.5rem;
+  letter-spacing: -0.4px;
+",
+                                ],
+                              },
+                              "displayName": "styled.label",
+                              "render": [Function],
+                              "styledComponentId": "sc-bxivhb",
+                              "target": "label",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          htmlFor="name"
+                        >
+                          <label
+                            className="sc-bxivhb hpIQsY"
+                            htmlFor="name"
+                          >
+                            Name
+                          </label>
+                        </StyledComponent>
+                      </styled.label>
+                      <styled.input
+                        error={true}
+                        name="name"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        type="text"
+                        value=""
+                      >
+                        <StyledComponent
+                          error={true}
+                          forwardedClass={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": undefined,
+                              "componentStyle": ComponentStyle {
+                                "componentId": "sc-ifAKCX",
+                                "isStatic": false,
+                                "lastClassName": "czOlHA",
+                                "rules": Array [
+                                  "
+  border: ",
+                                  [Function],
+                                  ";
+  border-style: none none solid none;
+  width: 100%;
+  min-height: 2.4rem;
+  font-size: 1.1rem;
+  caret-color: #4b3cfa;
+
+  &:focus {
+    outline: none;
+    border-bottom: 2px solid #4b3cfa;
+  }
+
+  &[type='number'] {
+    padding-left: 18px;
+    box-sizing: border-box;
+  }
+",
+                                ],
+                              },
+                              "displayName": "styled.input",
+                              "render": [Function],
+                              "styledComponentId": "sc-ifAKCX",
+                              "target": "input",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          name="name"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          type="text"
+                          value=""
+                        >
+                          <input
+                            className="sc-ifAKCX czOlHA"
+                            name="name"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            type="text"
+                            value=""
+                          />
+                        </StyledComponent>
+                      </styled.input>
+                    </div>
+                  </StyledComponent>
+                </styled.div>
+              </Field>
+            </Connect(Field)>
+            <styled.input
+              type="submit"
+            >
+              <StyledComponent
+                forwardedClass={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-htpNat",
+                      "isStatic": true,
+                      "lastClassName": "dRgDSk",
+                      "rules": Array [
+                        "
+  width: 85%;
+  display: block;
+  margin: 8rem auto 0;
+  background-color: #4b3cfa;
+  border: 0;
+  color: #ffffff;
+  height: 3rem;
+  border-radius: 1.5rem;
+  font-size: 16px;
+  font-weight: 600;
+
+  &:focus {
+    outline: none;
+  }
+",
+                      ],
+                    },
+                    "displayName": "styled.input",
+                    "render": [Function],
+                    "styledComponentId": "sc-htpNat",
+                    "target": "input",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                type="submit"
+              >
+                <input
+                  className="sc-htpNat dRgDSk"
+                  type="submit"
+                />
+              </StyledComponent>
+            </styled.input>
+          </form>
+        </StyledComponent>
+      </styled.form>
+    </FormContainer>
+  </Connect(FormContainer)>
+</Provider>
+`;

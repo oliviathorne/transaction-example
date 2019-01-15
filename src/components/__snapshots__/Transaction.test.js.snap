@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transaction component renders correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Transaction
+    amount={
+      Object {
+        "value": "3000",
+      }
+    }
+    email={
+      Object {
+        "value": "test@email.com",
+      }
+    }
+    name={
+      Object {
+        "value": "Test name",
+      }
+    }
+  >
+    <styled.div>
+      <StyledComponent
+        forwardedClass={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": true,
+              "lastClassName": "jwZnsa",
+              "rules": Array [
+                "
+  display: flex;
+  border-bottom: 1px solid #edeef7;
+  align-items: center;
+  padding: 1rem 0;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="sc-bdVaJa jwZnsa"
+        >
+          <styled.div
+            width={70}
+          >
+            <StyledComponent
+              forwardedClass={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": false,
+                    "lastClassName": "hTyRPc",
+                    "rules": Array [
+                      "
+  width: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              width={70}
+            >
+              <div
+                className="sc-bwzfXH cvZEdJ"
+                width={70}
+              >
+                <styled.p>
+                  <StyledComponent
+                    forwardedClass={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": undefined,
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": false,
+                          "lastClassName": "jBFklx",
+                          "rules": Array [
+                            "
+  margin: 0;
+  float: ",
+                            [Function],
+                            ";
+  font-size: ",
+                            [Function],
+                            ";
+  color: ",
+                            [Function],
+                            ";
+  margin-top: ",
+                            [Function],
+                            ";
+  font-weight: ",
+                            [Function],
+                            ";
+",
+                          ],
+                        },
+                        "displayName": "styled.p",
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "p",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <p
+                      className="sc-htpNat bwlXXh"
+                    >
+                      Test name
+                    </p>
+                  </StyledComponent>
+                </styled.p>
+                <styled.p
+                  smallText={true}
+                >
+                  <StyledComponent
+                    forwardedClass={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": undefined,
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": false,
+                          "lastClassName": "jBFklx",
+                          "rules": Array [
+                            "
+  margin: 0;
+  float: ",
+                            [Function],
+                            ";
+  font-size: ",
+                            [Function],
+                            ";
+  color: ",
+                            [Function],
+                            ";
+  margin-top: ",
+                            [Function],
+                            ";
+  font-weight: ",
+                            [Function],
+                            ";
+",
+                          ],
+                        },
+                        "displayName": "styled.p",
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "p",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    smallText={true}
+                  >
+                    <p
+                      className="sc-htpNat cRIDSO"
+                    >
+                      test@email.com
+                    </p>
+                  </StyledComponent>
+                </styled.p>
+              </div>
+            </StyledComponent>
+          </styled.div>
+          <styled.div
+            width={30}
+          >
+            <StyledComponent
+              forwardedClass={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": false,
+                    "lastClassName": "hTyRPc",
+                    "rules": Array [
+                      "
+  width: ",
+                      [Function],
+                      ";
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              width={30}
+            >
+              <div
+                className="sc-bwzfXH hTyRPc"
+                width={30}
+              >
+                <styled.p
+                  bold={true}
+                  float="right"
+                >
+                  <StyledComponent
+                    bold={true}
+                    float="right"
+                    forwardedClass={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": undefined,
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-htpNat",
+                          "isStatic": false,
+                          "lastClassName": "jBFklx",
+                          "rules": Array [
+                            "
+  margin: 0;
+  float: ",
+                            [Function],
+                            ";
+  font-size: ",
+                            [Function],
+                            ";
+  color: ",
+                            [Function],
+                            ";
+  margin-top: ",
+                            [Function],
+                            ";
+  font-weight: ",
+                            [Function],
+                            ";
+",
+                          ],
+                        },
+                        "displayName": "styled.p",
+                        "render": [Function],
+                        "styledComponentId": "sc-htpNat",
+                        "target": "p",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <p
+                      className="sc-htpNat jBFklx"
+                    >
+                      £
+                      3,000.00
+                    </p>
+                  </StyledComponent>
+                </styled.p>
+              </div>
+            </StyledComponent>
+          </styled.div>
+        </div>
+      </StyledComponent>
+    </styled.div>
+  </Transaction>
+</Provider>
+`;
